@@ -1,0 +1,36 @@
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.build/
+
+# Node & Dashboard Build
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# Database & Storage
+*.duckdb
+*.sqlite
+*.db
+redis_data/
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary / Scratch
+/tmp/
+scratch/
