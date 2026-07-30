@@ -1,11 +1,15 @@
 # Real-Time Fraud Scoring Pipeline (RTFSP)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Live%20Demo-FFD21E.svg)](https://huggingface.co/spaces/divinedemon97/rtfsp-fraud-pipeline)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-brightgreen.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688.svg)](https://fastapi.tiangolo.com/)
 [![SLA Latency](https://img.shields.io/badge/p95_Latency-<180ms-success.svg)](#performance-benchmarks)
 
 High-throughput, low-latency streaming fraud detection pipeline designed to score **1.2M+ daily transactions** at **<180ms p95 latency**. Combines primary gradient-boosted trees with a secondary ensemble classifier, real-time feature store, automated PSI feature-drift monitoring, and canary deployment with automated rollback.
+
+👉 **[Live Interactive Demo on Hugging Face Spaces](https://huggingface.co/spaces/divinedemon97/rtfsp-fraud-pipeline)**
+
 
 ---
 
